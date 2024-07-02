@@ -86,6 +86,8 @@
     background-color: #e4e4e4;
     padding: 5px 6px;
     border: solid 1px white;
+    color: #5d5d5d;
+    text-decoration: none;
 }
 .menu_set:hover{
     color:#990000;
@@ -149,8 +151,7 @@ h2{
 }
 .description{
     width: 90%;
-    /* min-width: 600px; */
-    height: 350px;
+    height: 400px;
     padding: 17px;
     background-color:#ffefef;
     border: solid 4px rgb(112, 112, 112);
