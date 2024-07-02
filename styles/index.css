@@ -39,6 +39,14 @@
     max-width: 1050px;
     min-width: 600px;
 }
+.tramites a{
+    color: white;
+    text-decoration: none;
+}
+.gobierno a{
+    color: white;
+    text-decoration: none;
+}
 .head_ipn{
     display: flex;
     justify-content: center;
