@@ -1,0 +1,157 @@
+*,html,body{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #828282;
+    font-family: "Montserrat", sans-serif;;
+}
+.head_gob{
+    background-color: #0C231E;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.right_menu_gob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    gap: 17px;
+}
+.head_gob img{
+    width: 120px;
+    padding: 15px 0px;
+    margin-left: 55px;
+}
+.container_saes{
+    max-width: 950px;
+}
+.head_ipn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-bottom: solid 1.5px #990000;
+}
+.logo_ipn{
+    width: 20%;
+}
+.logo_ipn img{
+    width: 65px;
+    margin-left: 18px;
+}
+.school_name{
+    width: 60%;
+    text-align: center;
+    color:#800909;
+    font-weight: bold;
+}
+.logo_esime{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+.logo_esime img{
+    width: 95px;
+    margin-right: 18px;
+}
+.menu_saes{
+    width: 100%;
+    background-color: #f3f3f3;
+    display: flex;
+}
+.menu_saes .empty{
+    width: 20%;
+}
+.menu_saes .menu_saes_right{
+    display: flex;
+}
+.menu_saes_right .menu_set{
+    background-color: #e4e4e4;
+    padding: 5px 6px;
+    border: solid 1px white;
+}
+.menu_set:hover{
+    color:#990000;
+    text-decoration: underline;
+}
+.aux_container{
+    width: 100%;
+    background-color: #e4e4e4;
+    padding-top: 35px;
+    display: flex;
+}
+.login{
+    background-color: #efefef;
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    color: #404041;
+    padding-left: 5px;
+    padding-top: 13px;
+    font-weight: 300;
+    border: solid 1px white;
+    height: 400px;
+}
+h2{
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+.login span{
+    font-weight:500;
+}
+.login input{
+    width: 90px;
+    height: 28px;
+    margin-bottom: 28px;
+}
+.login img{
+    width: 95px;
+    margin-bottom: 25px;
+}
+.login button{
+    background-color: #ff9900;
+    color: white;
+    width: 60px;
+    font-size: 16px;
+    border: solid 1px white;
+    margin-left: 80px;
+    padding: 4px 0;
+}
+.description_container{
+    width: 635px;
+    height: 600px;
+    margin-left: 5px;
+    border: solid 1px rgb(90, 90, 90);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.description{
+    width: 590px;
+    height: 350px;
+    padding: 17px;
+    background-color:#ffefef;
+    border: solid 4px rgb(112, 112, 112);
+    border-radius: 19px;
+}
+.description .blue{
+    color: #3e3afb;
+    font-size: 14px;
+    font-weight:600;
+}
+.description .black{
+    color: black;
+    font-size: 14px;
+    font-weight:600;
+}
