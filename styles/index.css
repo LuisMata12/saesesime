@@ -15,6 +15,9 @@
     background-color: #0C231E;
     width: 100%;
     display: flex;
+    position:fixed;
+    right: 0;
+    left: 0;
     justify-content: space-between;
     color: white;
 }
@@ -31,7 +34,9 @@
     margin-left: 55px;
 }
 .container_saes{
+    margin-top: 69px;
     max-width: 950px;
+    min-width: 600px;
 }
 .head_ipn{
     display: flex;
@@ -128,7 +133,8 @@ h2{
     padding: 4px 0;
 }
 .description_container{
-    width: 635px;
+    width: 70%;
+    min-width: 650px;
     height: 600px;
     margin-left: 5px;
     border: solid 1px rgb(90, 90, 90);
@@ -138,7 +144,8 @@ h2{
     padding-top: 25px;
 }
 .description{
-    width: 590px;
+    width: 90%;
+    min-width: 600px;
     height: 350px;
     padding: 17px;
     background-color:#ffefef;
